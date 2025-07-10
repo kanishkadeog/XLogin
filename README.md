@@ -14,57 +14,78 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+--------------------------------------------------------------------------------------------------------------------------
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# XLogin
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+XLogin is a simple ReactJS-based login interface that validates user credentials and demonstrates basic form handling, input validation, and conditional rendering using React functional components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Demo
 
-### `npm run eject`
+Live Site: [https://your-netlify-link.netlify.app](https://xlogin-qd1bijdrz-kanishkas-projects-95e27a37.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📌 Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Username and Password fields with proper labels
+- Mandatory input validation
+- Validates login for:
+  - ✅ Username: `user`
+  - ✅ Password: `password`
+- Displays:
+  - ✅ "Welcome, user!" on correct login
+  - ❌ "Invalid username or password" on incorrect login
+- Built with semantic HTML and React best practices
+- Passes all integration test cases using `run_assessment.sh`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ReactJS (Functional Components + Hooks)
+- HTML5 & CSS3 (Inline styling)
+- JavaScript (ES6+)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Login page:-
+![image](https://github.com/user-attachments/assets/9ecf5024-2c51-4641-871d-b646571f0ff4)
 
-### Making a Progressive Web App
+After Login :-
+![image](https://github.com/user-attachments/assets/14ac8474-57b0-4ac9-b0dc-dee35f148620)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+![image](https://github.com/user-attachments/assets/5ddaac8d-2e4b-4a12-b33e-37616c8cabb6)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📂 Folder Structure
+├── src/
+     ├── App.js
+     ├── XLogin.jsx
+     └── index.js
+
+
+
+     
+---
+
+## ✅ How to Run Locally
+
+```bash
+git clone https://github.com/your-username/xlogin.git
+cd xlogin
+npm install
+npm start
+
+
